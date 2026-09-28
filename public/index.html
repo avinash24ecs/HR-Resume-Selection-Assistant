@@ -741,7 +741,8 @@
           <div style="display:flex; gap:8px;">
             <button class="sm" id="btnViewTable" onclick="setTalentPoolView('table')" style="background:var(--primary-light); color:var(--primary); font-weight:bold;">📋 Table</button>
             <button class="sm" id="btnViewKanban" onclick="setTalentPoolView('kanban')">📊 Pipeline Kanban</button>
-            <button class="sm" onclick="exportCandidatesCSV()">📥 Export CSV</button>
+            <button class="sm" onclick="openImportModal()">📥 Bulk Import</button>
+            <button class="sm" onclick="exportCandidatesCSV()">📤 Export CSV</button>
             <button class="sm primary" onclick="showTab('screener')">+ Screen New Resume</button>
           </div>
         </div>
@@ -1079,6 +1080,40 @@
     </div>
   </div>
 
+  <!-- Bulk Import Modal -->
+  <div class="modal-overlay" id="importModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>📥 Bulk Import Candidates (CSV or JSON)</h2>
+        <button class="close-btn" onclick="closeImportModal()">&times;</button>
+      </div>
+      <div>
+        <p class="card-desc">Quickly import candidate resumes from a CSV or JSON file into the Talent Pool.</p>
+        
+        <div class="dropzone" id="importDropzone" onclick="document.getElementById('importFileInput').click()" style="padding:18px;">
+          <input type="file" id="importFileInput" accept=".csv,.json,.txt" style="display:none">
+          <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+          <h3>Click to browse or drop CSV/JSON file</h3>
+          <p>Columns: Candidate ID, Name, Target Job, Experience, CGPA, Status, Email, City, Skills</p>
+        </div>
+
+        <div style="margin:12px 0 6px;">
+          <button class="sm" onclick="loadSampleCSV()">Load 5 Pre-formatted Candidates</button>
+        </div>
+
+        <div class="form-group">
+          <label>CSV or JSON Data Content:</label>
+          <textarea id="importRawData" rows="6" placeholder="Paste CSV rows or JSON array here..."></textarea>
+        </div>
+
+        <div style="display:flex; justify-content:flex-end; gap:8px;">
+          <button onclick="closeImportModal()">Cancel</button>
+          <button class="primary" onclick="executeBulkImport()">Import Candidates</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Footer -->
   <footer>
     HR Resume Selection Assistant &bull; Advanced Database Management System (ADBMS) &bull; MongoDB &bull; Neo4j &bull; SQLite DW &bull; ML
@@ -1088,11 +1123,14 @@
   <script>
     // Embedded initial data for seamless 100% offline & online operation
     const INITIAL_JOBS = [
-      {"job_id": "J001", "title": "Data Scientist", "department": "Analytics", "required_skills": ["Python", "Machine Learning", "Statistics", "Pandas", "SQL"], "min_experience": 2, "min_cgpa": 7.0, "location": "Mumbai", "openings": 2},
-      {"job_id": "J002", "title": "Full Stack Developer", "department": "Engineering", "required_skills": ["JavaScript", "React", "Node.js", "MongoDB", "REST API"], "min_experience": 1, "min_cgpa": 6.5, "location": "Pune", "openings": 2},
-      {"job_id": "J003", "title": "Backend Engineer", "department": "Engineering", "required_skills": ["Java", "Spring Boot", "MySQL", "Docker", "Git"], "min_experience": 2, "min_cgpa": 6.5, "location": "Bengaluru", "openings": 3},
+      {"job_id": "J001", "title": "Data Scientist", "department": "Analytics", "required_skills": ["Python", "Machine Learning", "Statistics", "Pandas", "SQL"], "min_experience": 2, "min_cgpa": 7.0, "location": "Mumbai", "openings": 3},
+      {"job_id": "J002", "title": "Full Stack Developer", "department": "Engineering", "required_skills": ["JavaScript", "React", "Node.js", "MongoDB", "REST API"], "min_experience": 1, "min_cgpa": 6.5, "location": "Pune", "openings": 4},
+      {"job_id": "J003", "title": "Backend Engineer", "department": "Engineering", "required_skills": ["Java", "Spring Boot", "MySQL", "Docker", "Git"], "min_experience": 2, "min_cgpa": 6.5, "location": "Bengaluru", "openings": 5},
       {"job_id": "J004", "title": "Database Engineer", "department": "IT", "required_skills": ["SQL", "MongoDB", "Neo4j", "ETL", "Data Warehousing"], "min_experience": 1, "min_cgpa": 7.0, "location": "Mumbai", "openings": 2},
-      {"job_id": "J005", "title": "BI Analyst", "department": "Analytics", "required_skills": ["SQL", "Tableau", "Power BI", "Data Visualization", "Statistics"], "min_experience": 1, "min_cgpa": 6.0, "location": "Hyderabad", "openings": 2}
+      {"job_id": "J005", "title": "BI Analyst", "department": "Analytics", "required_skills": ["SQL", "Tableau", "Power BI", "Data Visualization", "Statistics"], "min_experience": 1, "min_cgpa": 6.0, "location": "Hyderabad", "openings": 3},
+      {"job_id": "J006", "title": "Cloud DevOps Engineer", "department": "Infrastructure", "required_skills": ["Docker", "Kubernetes", "AWS", "Linux", "CI/CD", "Git"], "min_experience": 2.5, "min_cgpa": 6.5, "location": "Bengaluru", "openings": 4},
+      {"job_id": "J007", "title": "AI / Deep Learning Engineer", "department": "AI Research", "required_skills": ["Python", "TensorFlow", "PyTorch", "Deep Learning", "NLP", "Machine Learning"], "min_experience": 2.0, "min_cgpa": 7.5, "location": "Hyderabad", "openings": 2},
+      {"job_id": "J008", "title": "Frontend Architect", "department": "Engineering", "required_skills": ["React", "TypeScript", "JavaScript", "Next.js", "HTML", "CSS"], "min_experience": 3.0, "min_cgpa": 6.8, "location": "Pune", "openings": 2}
     ];
 
     const ALL_SKILLS = [
@@ -2212,6 +2250,117 @@
       appState.backendOnline = false;
       dot.className = "status-dot offline";
       text.textContent = "Mode: Zero-Install Standalone";
+    }
+
+    // Bulk Import Logic
+    function openImportModal() {
+      document.getElementById("importModal").classList.add("active");
+    }
+    function closeImportModal() {
+      document.getElementById("importModal").classList.remove("active");
+    }
+
+    function loadSampleCSV() {
+      document.getElementById("importRawData").value =
+`Candidate ID,Name,Target Job,Experience,CGPA,Status,Email,City,Skills
+C301,Vikramaditya Rao,J001,4.2,8.6,Shortlisted,vikram.rao@example.com,Bengaluru,"Python, SQL, Machine Learning, Deep Learning, Statistics, Pandas"
+C302,Sanya Malhotra,J002,2.8,7.8,Applied,sanya.m@devmail.io,Mumbai,"JavaScript, React, Node.js, Express, MongoDB, REST API"
+C303,Aditya Singhania,J006,3.5,8.1,Interview,aditya.s@cloudops.com,Pune,"Docker, Kubernetes, AWS, Linux, CI/CD, Git, Terraform"
+C304,Meenakshi Sundaram,J007,2.0,9.1,Shortlisted,meenakshi.s@airesearch.org,Hyderabad,"Python, PyTorch, Deep Learning, NLP, TensorFlow, Machine Learning"
+C305,Kabir Bedi,J003,1.5,7.2,Applied,kabir.bedi@javadev.com,Delhi NCR,"Java, Spring Boot, MySQL, Git, Docker"`;
+    }
+
+    async function executeBulkImport() {
+      const raw = document.getElementById("importRawData").value.trim();
+      if (!raw) return alert("Please paste CSV/JSON data or drop a file first.");
+
+      let importedCount = 0;
+      if (raw.startsWith("[") || raw.startsWith("{")) {
+        try {
+          const parsed = JSON.parse(raw);
+          const list = Array.isArray(parsed) ? parsed : [parsed];
+          list.forEach(item => {
+            appState.candidates.unshift(item);
+            importedCount++;
+            if (appState.backendOnline) {
+              fetch("/api/resumes", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(item)
+              }).catch(console.error);
+            }
+          });
+        } catch (e) {
+          return alert("Invalid JSON: " + e.message);
+        }
+      } else {
+        const lines = raw.split("\n").filter(l => l.trim().length > 0);
+        const header = lines[0].toLowerCase();
+        const dataLines = header.includes("name") ? lines.slice(1) : lines;
+
+        dataLines.forEach(line => {
+          const regex = /(?:,|\n|^)("(?:(?:"")*[^"]*)*"|[^",\n]*|(?:\n|$))/g;
+          const cols = [];
+          let m;
+          while ((m = regex.exec(line)) !== null && cols.length < 15) {
+            let str = m[1] || '';
+            if (str.startsWith('"') && str.endsWith('"')) str = str.slice(1, -1);
+            cols.push(str.trim());
+            if (regex.lastIndex === line.length) break;
+          }
+          if (cols.length >= 4) {
+            const candId = cols[0] || `C${appState.candidates.length + 101}`;
+            const name = cols[1] || "Imported Candidate";
+            const targetJob = cols[2] || "J001";
+            const exp = parseFloat(cols[3]) || 1.0;
+            const cgpa = parseFloat(cols[4]) || 7.5;
+            const status = cols[5] || "Applied";
+            const email = cols[6] || `${candId.toLowerCase()}@mail.com`;
+            const city = cols[7] || "Mumbai";
+            const skillsStr = cols[8] || "";
+            const skills = skillsStr ? skillsStr.split(",").map(s => s.trim()).filter(Boolean) : ["Python", "SQL"];
+
+            const newCand = {
+              candidate_id: candId,
+              name,
+              applied_job_id: targetJob,
+              experience_years: exp,
+              education: { degree: "B.Tech", field: "Computer Science", cgpa, year: 2023 },
+              status,
+              email,
+              city,
+              skills,
+              expected_salary_lpa: 6.5,
+              rating: 4,
+              notes: "Bulk imported candidate"
+            };
+            appState.candidates.unshift(newCand);
+            importedCount++;
+
+            if (appState.backendOnline) {
+              fetch("/api/resumes", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(newCand)
+              }).catch(console.error);
+            }
+          }
+        });
+      }
+
+      closeImportModal();
+      renderCandidatesTable();
+      alert(`Successfully imported ${importedCount} candidates into the Talent Pool!`);
+    }
+
+    const importFileInput = document.getElementById("importFileInput");
+    if (importFileInput) {
+      importFileInput.addEventListener("change", async (e) => {
+        if (e.target.files.length) {
+          const text = await e.target.files[0].text();
+          document.getElementById("importRawData").value = text;
+        }
+      });
     }
 
     // Theme toggle

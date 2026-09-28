@@ -11,9 +11,9 @@
       "SQL"
     ],
     "min_experience": 2,
-    "min_cgpa": 7.0,
+    "min_cgpa": 7,
     "location": "Mumbai",
-    "openings": 1
+    "openings": 3
   },
   {
     "job_id": "J002",
@@ -29,7 +29,7 @@
     "min_experience": 1,
     "min_cgpa": 6.5,
     "location": "Pune",
-    "openings": 1
+    "openings": 4
   },
   {
     "job_id": "J003",
@@ -45,7 +45,7 @@
     "min_experience": 2,
     "min_cgpa": 6.5,
     "location": "Bengaluru",
-    "openings": 3
+    "openings": 5
   },
   {
     "job_id": "J004",
@@ -59,7 +59,7 @@
       "Data Warehousing"
     ],
     "min_experience": 1,
-    "min_cgpa": 7.0,
+    "min_cgpa": 7,
     "location": "Mumbai",
     "openings": 2
   },
@@ -75,8 +75,59 @@
       "Statistics"
     ],
     "min_experience": 1,
-    "min_cgpa": 6.0,
+    "min_cgpa": 6,
     "location": "Hyderabad",
+    "openings": 3
+  },
+  {
+    "job_id": "J006",
+    "title": "Cloud DevOps Engineer",
+    "department": "Infrastructure",
+    "required_skills": [
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Linux",
+      "CI/CD",
+      "Git"
+    ],
+    "min_experience": 2.5,
+    "min_cgpa": 6.5,
+    "location": "Bengaluru",
+    "openings": 4
+  },
+  {
+    "job_id": "J007",
+    "title": "AI / Deep Learning Engineer",
+    "department": "AI Research",
+    "required_skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Deep Learning",
+      "NLP",
+      "Machine Learning"
+    ],
+    "min_experience": 2,
+    "min_cgpa": 7.5,
+    "location": "Hyderabad",
+    "openings": 2
+  },
+  {
+    "job_id": "J008",
+    "title": "Frontend Architect",
+    "department": "Engineering",
+    "required_skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Next.js",
+      "HTML",
+      "CSS"
+    ],
+    "min_experience": 3,
+    "min_cgpa": 6.8,
+    "location": "Pune",
     "openings": 2
   }
 ]

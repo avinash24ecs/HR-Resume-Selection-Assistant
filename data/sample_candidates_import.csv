@@ -1,0 +1,6 @@
+Candidate ID,Name,Target Job,Experience,CGPA,Status,Email,City,Skills
+C301,Vikramaditya Rao,J001,4.2,8.6,Shortlisted,vikram.rao@example.com,Bengaluru,"Python, SQL, Machine Learning, Deep Learning, Statistics, Pandas"
+C302,Sanya Malhotra,J002,2.8,7.8,Applied,sanya.m@devmail.io,Mumbai,"JavaScript, React, Node.js, Express, MongoDB, REST API"
+C303,Aditya Singhania,J006,3.5,8.1,Interview,aditya.s@cloudops.com,Pune,"Docker, Kubernetes, AWS, Linux, CI/CD, Git, Terraform"
+C304,Meenakshi Sundaram,J007,2.0,9.1,Shortlisted,meenakshi.s@airesearch.org,Hyderabad,"Python, PyTorch, Deep Learning, NLP, TensorFlow, Machine Learning"
+C305,Kabir Bedi,J003,1.5,7.2,Applied,kabir.bedi@javadev.com,Delhi NCR,"Java, Spring Boot, MySQL, Git, Docker"
