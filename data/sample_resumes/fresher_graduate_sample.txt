@@ -1,0 +1,26 @@
+ANANYA SEN
+Email: ananya.sen2024@collegemail.edu | Phone: +91 91234 56780 | Location: Bengaluru, India
+GitHub: github.com/ananya-sen | LinkedIn: linkedin.com/in/ananya-sen
+
+OBJECTIVE
+Passionate and driven recent Computer Science graduate seeking an entry-level software or data analyst position. Strong theoretical foundation in Data Structures, Algorithms, SQL, and Python with hands-on capstone project experience.
+
+EDUCATION
+• Bachelor of Technology (B.Tech) in Computer Science and Engineering
+  National Institute of Technology | Graduated 2024
+  CGPA: 8.7 / 10.0 (Dean's Honor List)
+
+TECHNICAL SKILLS
+• Programming: Python, Java, SQL, JavaScript, HTML, CSS
+• Libraries & Tools: Pandas, NumPy, Git, Linux
+• Core Concepts: Object-Oriented Programming (OOP), Database Management Systems (DBMS)
+
+ACADEMIC PROJECTS
+1. Smart Resume Evaluator (Final Year Capstone):
+   • Developed a web application using Python, Pandas, and SQL that parsed student resumes and compared keyword overlap with job descriptions.
+2. Library Management Portal:
+   • Built a relational database management system using MySQL and Java Swing with transaction management.
+
+AWARDS & ACTIVITIES
+• 1st Place in College Hackathon 2023 for predictive analytics model.
+• Technical Lead, Computer Science Society.

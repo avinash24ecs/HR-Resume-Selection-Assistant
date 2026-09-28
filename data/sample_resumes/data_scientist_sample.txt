@@ -1,0 +1,33 @@
+AVINASH SHARMA
+Email: avinash.sharma@example.com | Phone: +91 98234 56789 | Location: Mumbai, India
+LinkedIn: linkedin.com/in/avinash-sharma-ds | GitHub: github.com/avinash-data
+
+SUMMARY
+Senior Data Scientist with 4.5 years of industry experience specializing in predictive modeling, statistical analysis, and end-to-end Machine Learning pipelines. Proven track record in optimizing recommendation engines and deploying scalable analytical workflows in Python, SQL, and Pandas.
+
+TECHNICAL SKILLS
+• Languages & Tools: Python, SQL, R, Git, Linux
+• Machine Learning & AI: Scikit-learn, TensorFlow, Deep Learning, Statistics, NLP, Computer Vision
+• Data Manipulation: Pandas, NumPy, ETL
+• Visualization & BI: Tableau, Power BI, Data Visualization, Matplotlib, Seaborn
+• Databases & Cloud: PostgreSQL, MySQL, AWS, Docker
+
+WORK EXPERIENCE
+Senior Data Scientist | FinTech Analytics Corp, Mumbai
+June 2022 – Present (2.5 years)
+• Architected customer churn prediction model using Python, Scikit-learn, and Statistics, improving retention by 18%.
+• Built automated ETL data pipelines with SQL and Pandas processing over 2M transaction records daily.
+• Created executive Tableau dashboards to track key performance metrics and model drift.
+
+Data Analyst | DataCorp Solutions, Pune
+Aug 2020 – May 2022 (2.0 years)
+• Formulated statistical hypothesis testing and A/B test experiments for digital marketing campaigns.
+• Query optimization on PostgreSQL database reducing dashboard query latency by 35%.
+
+EDUCATION
+• Master of Science (M.Sc) in Data Science | University of Mumbai (2020) | CGPA: 8.4 / 10.0
+• Bachelor of Science (B.Sc) in Statistics | Pune University (2018) | CGPA: 8.1 / 10.0
+
+CERTIFICATIONS
+• AWS Cloud Practitioner
+• Google Data Analytics Professional Certificate

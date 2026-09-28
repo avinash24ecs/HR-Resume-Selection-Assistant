@@ -1,0 +1,32 @@
+PRIYA PATEL
+Email: priya.patel@devmail.io | Phone: +91 97112 34567 | Location: Pune, India
+Portfolio: priyapatel.dev | GitHub: github.com/priyapatel-dev
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 3.2 years of progressive experience engineering robust, reactive web applications. Proficient in React, JavaScript, TypeScript, Node.js, Express, and MongoDB. Adept at building responsive frontends and resilient REST APIs with Docker containerization.
+
+CORE SKILLS
+• Frontend: JavaScript, TypeScript, React, Next.js, HTML, CSS, Tailwind CSS, Redux
+• Backend & APIs: Node.js, Express, REST API, GraphQL, Microservices
+• Databases: MongoDB, PostgreSQL, Redis, Indexing
+• DevOps & Version Control: Docker, Git, GitHub, Linux, CI/CD, AWS
+
+PROFESSIONAL EXPERIENCE
+Full Stack Software Engineer | CloudSoft Technologies, Pune
+Jan 2023 – Present (2.0 years)
+• Developed responsive SPA client portal in React with modern hooks and state management, serving 50k+ monthly active users.
+• Designed and implemented REST APIs using Node.js and Express connected to MongoDB replica sets.
+• Containerized microservices using Docker and orchestrated CI/CD automated deployment pipelines with GitHub Actions.
+
+Frontend Developer | WebSolutions Inc, Bengaluru
+July 2021 – Dec 2022 (1.2 years)
+• Built interactive client-side components using JavaScript, React, and CSS.
+• Integrated RESTful endpoints and optimized frontend rendering performance.
+
+EDUCATION
+• Bachelor of Technology (B.Tech) in Information Technology
+  College of Engineering Pune (COEP) | 2021 Grad | CGPA: 7.9 / 10.0
+
+PROJECTS
+• E-Commerce Storefront: Full stack web app built with React, Node.js, MongoDB, Stripe integration.
+• Task Tracker Pro: Real-time collaborative kanban board using React, WebSocket, and Express.

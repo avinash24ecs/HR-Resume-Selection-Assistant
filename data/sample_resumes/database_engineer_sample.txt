@@ -1,0 +1,31 @@
+ROHIT VERMA
+Email: rohit.verma@dbpro.com | Phone: +91 99887 76655 | Location: Mumbai, India
+
+SUMMARY
+Database Engineer with 2.5 years of hands-on experience designing schemas, writing high-performance SQL, managing NoSQL databases like MongoDB, and building graph relationships using Neo4j and Cypher. Specialized in ETL pipelines and star-schema Data Warehousing.
+
+TECHNICAL EXPERTISE
+• Databases: SQL, MongoDB, Neo4j, Cypher, PostgreSQL, MySQL, Indexing
+• Data Warehousing & ETL: Data Warehousing, ETL, Apache Spark, Airflow, Star Schema
+• Programming & Scripting: Python, Bash, Linux
+• Tools: Git, Docker, DBeaver, Neo4j Bloom
+
+EXPERIENCE
+Database Engineer | Enterprise Data Systems, Mumbai
+March 2023 – Present (2.0 years)
+• Designed and optimized complex SQL queries and compound indexing strategies across multi-terabyte databases.
+• Maintained MongoDB document databases and implemented Neo4j graph nodes and relationships for knowledge graphs.
+• Automated nightly ETL pipelines into an enterprise star schema Data Warehouse for OLAP reporting.
+
+Junior Database Administrator | TechInfo Systems, Navi Mumbai
+Sept 2021 – Feb 2023 (1.5 years)
+• Monitored database replication, backups, and query performance.
+• Assisted in migrating legacy relational schemas to MongoDB collections.
+
+EDUCATION
+• Bachelor of Engineering (B.E.) in Computer Engineering
+  University of Mumbai | Graduated 2021 | CGPA: 7.6 / 10.0
+
+CERTIFICATIONS
+• Neo4j Certified Professional
+• MongoDB Associate Developer

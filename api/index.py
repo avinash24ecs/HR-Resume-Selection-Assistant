@@ -1,19 +1,22 @@
-"""Vercel serverless entry point (Flask).  Local run:  python api/index.py"""
-import os, sys, json, itertools
+"""Vercel serverless entry point & local Flask API for HR Resume Selection Assistant.
+Local run: python api/index.py
+"""
+import os, sys, json, itertools, uuid
 from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, ROOT); os.chdir(ROOT)
+sys.path.insert(0, ROOT)
+os.chdir(ROOT)
 
 from flask import Flask, jsonify, request, send_from_directory
-import mongo_ops, warehouse, db as dbmod
+import mongo_ops, warehouse, db as dbmod, resume_parser
 from config import NEO4J_URI, NEO4J_USER, NEO4J_PASSWORD
 
 app = Flask(__name__)
 _S = {}
 
 def S():
-    """Lazy one-time setup per serverless instance: MongoDB + in-memory star-schema warehouse."""
+    """Lazy one-time setup: MongoDB + in-memory star-schema warehouse."""
     if not _S:
         d = dbmod.get_db(verbose=False)
         if d.resumes.count_documents({}) == 0:
@@ -31,8 +34,19 @@ def csv_arg(name):
 def num_arg(name, default, lo, hi):
     try:
         return max(lo, min(hi, float(request.args.get(name, default))))
-    except ValueError:
+    except (ValueError, TypeError):
         return default
+
+@app.after_request
+def add_cors_headers(response):
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Headers"] = "Content-Type,Authorization"
+    response.headers["Access-Control-Allow-Methods"] = "GET,POST,PUT,PATCH,DELETE,OPTIONS"
+    return response
+
+@app.route("/api/<path:subpath>", methods=["OPTIONS"])
+def handle_options(subpath):
+    return jsonify(status="ok"), 200
 
 from werkzeug.exceptions import HTTPException
 
@@ -50,13 +64,133 @@ def home():
 @app.get("/api/health")
 def health():
     s = S()
-    return jsonify(status="ok", mongo=dbmod.SOURCE, neo4j="configured" if os.getenv("NEO4J_URI") else "not configured (python fallback)",
-                   resumes=s["db"].resumes.count_documents({}), jobs=s["db"].jobs.count_documents({}))
+    return jsonify(
+        status="ok",
+        mongo=dbmod.SOURCE,
+        neo4j="configured" if os.getenv("NEO4J_URI") else "not configured (python fallback)",
+        resumes=s["db"].resumes.count_documents({}),
+        jobs=s["db"].jobs.count_documents({})
+    )
 
+# ---------- Jobs Endpoints ----------
 @app.get("/api/jobs")
-def jobs():
+def get_jobs():
     return jsonify(list(S()["db"].jobs.find({}, {"_id": 0})))
 
+@app.post("/api/jobs")
+def create_job():
+    payload = request.get_json(force=True, silent=True) or {}
+    title = payload.get("title", "").strip()
+    if not title:
+        return err("Job title is required")
+    db = S()["db"]
+    job_count = db.jobs.count_documents({})
+    job_id = payload.get("job_id") or f"J{job_count+1:03d}"
+    job_doc = {
+        "job_id": job_id,
+        "title": title,
+        "department": payload.get("department", "Engineering"),
+        "required_skills": payload.get("required_skills", []),
+        "min_experience": float(payload.get("min_experience", 1.0)),
+        "min_cgpa": float(payload.get("min_cgpa", 6.5)),
+        "location": payload.get("location", "Mumbai"),
+        "openings": int(payload.get("openings", 1))
+    }
+    db.jobs.replace_one({"job_id": job_id}, job_doc, upsert=True)
+    return jsonify({"success": True, "job": job_doc})
+
+# ---------- Resumes Endpoints ----------
+@app.get("/api/resumes")
+def get_resumes():
+    d = S()["db"]
+    q = {}
+    job_id = request.args.get("job_id")
+    if job_id and job_id.upper() != "ALL":
+        q["applied_job_id"] = job_id.upper()
+    status = request.args.get("status")
+    if status and status.lower() != "all":
+        q["status"] = status
+    search = request.args.get("search", "").strip()
+    if search:
+        q["$or"] = [
+            {"name": {"$regex": search, "$options": "i"}},
+            {"candidate_id": {"$regex": search, "$options": "i"}},
+            {"skills": {"$regex": search, "$options": "i"}},
+            {"city": {"$regex": search, "$options": "i"}}
+        ]
+    limit = int(num_arg("limit", 200, 1, 500))
+    resumes = list(d.resumes.find(q, {"_id": 0}).limit(limit))
+    return jsonify({"total": len(resumes), "resumes": resumes})
+
+@app.post("/api/resumes")
+def add_resume():
+    payload = request.get_json(force=True, silent=True) or {}
+    db = S()["db"]
+    count = db.resumes.count_documents({})
+    cand_id = payload.get("candidate_id") or f"C{count+1:03d}"
+    resume_doc = {
+        "candidate_id": cand_id,
+        "name": payload.get("name", "New Candidate"),
+        "email": payload.get("email", f"candidate{count+1}@mail.com"),
+        "phone": payload.get("phone", "+91 98765 43210"),
+        "city": payload.get("city", "Mumbai"),
+        "education": payload.get("education", {"degree": "B.Tech", "field": "Computer Science", "cgpa": 7.5, "year": 2024}),
+        "experience_years": float(payload.get("experience_years", 1.0)),
+        "skills": payload.get("skills", []),
+        "certifications": payload.get("certifications", []),
+        "projects": payload.get("projects", []),
+        "summary": payload.get("summary", ""),
+        "expected_salary_lpa": float(payload.get("expected_salary_lpa", 6.0)),
+        "applied_job_id": payload.get("applied_job_id", "J001"),
+        "applied_on": payload.get("applied_on", "2026-09-28"),
+        "status": payload.get("status", "Applied")
+    }
+    db.resumes.replace_one({"candidate_id": cand_id}, resume_doc, upsert=True)
+    return jsonify({"success": True, "candidate": resume_doc})
+
+@app.patch("/api/resumes/<candidate_id>")
+def update_resume_status(candidate_id):
+    payload = request.get_json(force=True, silent=True) or {}
+    db = S()["db"]
+    update_fields = {}
+    if "status" in payload:
+        update_fields["status"] = payload["status"]
+    if "notes" in payload:
+        update_fields["notes"] = payload["notes"]
+    if not update_fields:
+        return err("No fields to update")
+    res = db.resumes.update_one({"candidate_id": candidate_id.upper()}, {"$set": update_fields})
+    if res.matched_count == 0:
+        return err("Candidate not found", 404)
+    return jsonify({"success": True, "candidate_id": candidate_id.upper(), "updated": update_fields})
+
+@app.delete("/api/resumes/<candidate_id>")
+def delete_resume(candidate_id):
+    db = S()["db"]
+    res = db.resumes.delete_one({"candidate_id": candidate_id.upper()})
+    return jsonify({"success": True, "deleted": res.deleted_count > 0})
+
+# ---------- Smart Parsing & ATS Scoring Endpoints ----------
+@app.post("/api/parse_resume")
+def parse_resume():
+    payload = request.get_json(force=True, silent=True) or {}
+    text = payload.get("text", "")
+    if not text:
+        return err("Resume text is required")
+    parsed = resume_parser.parse_resume_text(text)
+    return jsonify(parsed)
+
+@app.post("/api/score_resume")
+def score_resume():
+    payload = request.get_json(force=True, silent=True) or {}
+    candidate = payload.get("candidate")
+    job = payload.get("job")
+    if not candidate or not job:
+        return err("Both candidate and job objects are required")
+    scored = resume_parser.score_candidate_for_job(candidate, job)
+    return jsonify(scored)
+
+# ---------- Existing ADBMS Endpoints ----------
 @app.get("/api/rank/<job_id>")
 def rank(job_id):
     out = mongo_ops.rank_candidates(S()["db"], job_id.upper(), int(num_arg("top", 10, 1, 50)), verbose=False)
@@ -90,9 +224,11 @@ def match():
         req = j["required_skills"]; pct = 100 * len(have & set(req)) / len(req)
         score = pct * .6 + (20 if exp >= j["min_experience"] else exp / max(j["min_experience"], 1) * 20) + cg * 2
         sim = [ok for p, ok in hist if abs(p - pct) <= 15]
-        out.append({"job_id": j["job_id"], "title": j["title"], "skill_match_pct": round(pct), "score": round(score, 1),
-                    "missing": sorted(set(req) - have), "historical_selection_rate_pct": round(100 * sum(sim) / len(sim)) if sim else None,
-                    "similar_profiles": len(sim)})
+        out.append({
+            "job_id": j["job_id"], "title": j["title"], "skill_match_pct": round(pct), "score": round(score, 1),
+            "missing": sorted(set(req) - have), "historical_selection_rate_pct": round(100 * sum(sim) / len(sim)) if sim else None,
+            "similar_profiles": len(sim)
+        })
     return jsonify(sorted(out, key=lambda x: -x["score"]))
 
 @app.get("/api/warehouse")
@@ -153,4 +289,6 @@ def g_match():
                  {"job": job}, fb)
 
 if __name__ == "__main__":
-    app.run(port=int(os.getenv("PORT", 5000)), debug=False)
+    port = int(os.getenv("PORT", 5000))
+    print(f"Starting HR Resume Selection Assistant on http://localhost:{port}")
+    app.run(host="0.0.0.0", port=port, debug=False)
