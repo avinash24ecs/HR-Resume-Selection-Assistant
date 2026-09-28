@@ -1,0 +1,132 @@
+{
+  "clusters": [
+    {
+      "cluster": 0,
+      "experience": 2.49,
+      "cgpa": 7.2,
+      "skill_count": 4.65,
+      "match_pct": 13.04,
+      "salary": 8.68,
+      "size": 46.0,
+      "hired_pct": 10.9
+    },
+    {
+      "cluster": 1,
+      "experience": 1.01,
+      "cgpa": 7.31,
+      "skill_count": 8.18,
+      "match_pct": 77.95,
+      "salary": 6.62,
+      "size": 39.0,
+      "hired_pct": 66.7
+    },
+    {
+      "cluster": 2,
+      "experience": 4.41,
+      "cgpa": 7.57,
+      "skill_count": 8.03,
+      "match_pct": 78.86,
+      "salary": 12.75,
+      "size": 35.0,
+      "hired_pct": 94.3
+    }
+  ],
+  "decision_tree": {
+    "accuracy_pct": 96.7,
+    "importance": {
+      "experience": 0.04,
+      "cgpa": 0.05,
+      "skill_count": 0.08,
+      "certs": 0.03,
+      "match_pct": 0.8
+    },
+    "rules": "|--- match_pct <= 30.00\n|   |--- cgpa <= 9.60\n|   |   |--- certs <= 0.50\n|   |   |   |--- class: 0\n|   |   |--- certs >  0.50\n|   |   |   |--- class: 0\n|   |--- cgpa >  9.60\n|   |   |--- class: 1\n|--- match_pct >  30.00\n|   |--- experience <= 0.10\n|   |   |--- skill_count <= 7.00\n|   |   |   |--- class: 0\n|   |   |--- skill_count >  7.00\n|   |   |   |--- class: 1\n|   |--- experience >  0.10\n|   |   |--- class: 1\n"
+  },
+  "association_rules": [
+    {
+      "if": "Cypher",
+      "then": "Indexing",
+      "support": 0.14,
+      "confidence": 0.75,
+      "lift": 3.69
+    },
+    {
+      "if": "Indexing",
+      "then": "Cypher",
+      "support": 0.14,
+      "confidence": 0.69,
+      "lift": 3.69
+    },
+    {
+      "if": "Docker",
+      "then": "Git",
+      "support": 0.17,
+      "confidence": 0.69,
+      "lift": 3.67
+    },
+    {
+      "if": "Git",
+      "then": "Docker",
+      "support": 0.17,
+      "confidence": 0.92,
+      "lift": 3.67
+    },
+    {
+      "if": "TypeScript",
+      "then": "Node.js",
+      "support": 0.12,
+      "confidence": 0.8,
+      "lift": 3.66
+    },
+    {
+      "if": "Node.js",
+      "then": "React",
+      "support": 0.17,
+      "confidence": 0.79,
+      "lift": 3.35
+    },
+    {
+      "if": "React",
+      "then": "Node.js",
+      "support": 0.17,
+      "confidence": 0.73,
+      "lift": 3.35
+    },
+    {
+      "if": "Git",
+      "then": "Java",
+      "support": 0.16,
+      "confidence": 0.83,
+      "lift": 3.33
+    },
+    {
+      "if": "Java",
+      "then": "Git",
+      "support": 0.16,
+      "confidence": 0.62,
+      "lift": 3.33
+    },
+    {
+      "if": "Machine Learning",
+      "then": "Pandas",
+      "support": 0.22,
+      "confidence": 0.88,
+      "lift": 3.11
+    },
+    {
+      "if": "Pandas",
+      "then": "Machine Learning",
+      "support": 0.22,
+      "confidence": 0.78,
+      "lift": 3.11
+    },
+    {
+      "if": "JavaScript",
+      "then": "Node.js",
+      "support": 0.16,
+      "confidence": 0.67,
+      "lift": 3.05
+    }
+  ],
+  "hired_sample_size": 64
+}

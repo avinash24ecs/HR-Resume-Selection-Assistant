@@ -1,0 +1,4 @@
+# Full local/CLI install (adds data-mining libraries). Vercel only needs requirements.txt.
+-r requirements.txt
+scikit-learn
+pandas

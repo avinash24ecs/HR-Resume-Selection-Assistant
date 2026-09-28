@@ -1,0 +1,82 @@
+[
+  {
+    "job_id": "J001",
+    "title": "Data Scientist",
+    "department": "Analytics",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Statistics",
+      "Pandas",
+      "SQL"
+    ],
+    "min_experience": 2,
+    "min_cgpa": 7.0,
+    "location": "Mumbai",
+    "openings": 1
+  },
+  {
+    "job_id": "J002",
+    "title": "Full Stack Developer",
+    "department": "Engineering",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "MongoDB",
+      "REST API"
+    ],
+    "min_experience": 1,
+    "min_cgpa": 6.5,
+    "location": "Pune",
+    "openings": 1
+  },
+  {
+    "job_id": "J003",
+    "title": "Backend Engineer",
+    "department": "Engineering",
+    "required_skills": [
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Docker",
+      "Git"
+    ],
+    "min_experience": 2,
+    "min_cgpa": 6.5,
+    "location": "Bengaluru",
+    "openings": 3
+  },
+  {
+    "job_id": "J004",
+    "title": "Database Engineer",
+    "department": "IT",
+    "required_skills": [
+      "SQL",
+      "MongoDB",
+      "Neo4j",
+      "ETL",
+      "Data Warehousing"
+    ],
+    "min_experience": 1,
+    "min_cgpa": 7.0,
+    "location": "Mumbai",
+    "openings": 2
+  },
+  {
+    "job_id": "J005",
+    "title": "BI Analyst",
+    "department": "Analytics",
+    "required_skills": [
+      "SQL",
+      "Tableau",
+      "Power BI",
+      "Data Visualization",
+      "Statistics"
+    ],
+    "min_experience": 1,
+    "min_cgpa": 6.0,
+    "location": "Hyderabad",
+    "openings": 2
+  }
+]

@@ -1,0 +1,5493 @@
+[
+  {
+    "candidate_id": "C001",
+    "name": "Meera Gupta",
+    "email": "meera.gupta1@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.7,
+      "year": 2017
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+      "Power BI",
+      "Python",
+      "REST API",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Power BI",
+          "JavaScript"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.0 years experience in JavaScript, Node.js, PostgreSQL, Power BI.",
+    "expected_salary_lpa": 5.9,
+    "applied_job_id": "J002",
+    "applied_on": "2025-06-26",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C002",
+    "name": "Sakshi Iyer",
+    "email": "sakshi.iyer2@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 6.0,
+      "year": 2019
+    },
+    "experience_years": 1.3,
+    "skills": [
+      "AWS",
+      "Java",
+      "Microservices",
+      "MySQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "AWS",
+          "Java"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.3 years experience in AWS, Java, Microservices, MySQL.",
+    "expected_salary_lpa": 6.2,
+    "applied_job_id": "J005",
+    "applied_on": "2025-11-22",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C003",
+    "name": "Rahul Sharma",
+    "email": "rahul.sharma3@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.6,
+      "year": 2015
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "React",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "TypeScript",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 1.0 years experience in JavaScript, MongoDB, Node.js, React.",
+    "expected_salary_lpa": 5.4,
+    "applied_job_id": "J003",
+    "applied_on": "2025-09-13",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C004",
+    "name": "Diya Singh",
+    "email": "diya.singh4@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.7,
+      "year": 2025
+    },
+    "experience_years": 1.2,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.2 years experience in Cypher, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 6.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-08-28",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C005",
+    "name": "Isha Nair",
+    "email": "isha.nair5@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 8.1,
+      "year": 2017
+    },
+    "experience_years": 1.6,
+    "skills": [
+      "Git",
+      "Microservices",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Spring Boot",
+          "Git"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Git",
+          "Microservices"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Git",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.6 years experience in Git, Microservices, Spring Boot.",
+    "expected_salary_lpa": 7.7,
+    "applied_job_id": "J005",
+    "applied_on": "2025-09-08",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C006",
+    "name": "Kavya Kulkarni",
+    "email": "kavya.kulkarni6@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 8.9,
+      "year": 2021
+    },
+    "experience_years": 3.9,
+    "skills": [
+      "Data Visualization",
+      "Data Warehousing",
+      "Machine Learning",
+      "MongoDB",
+      "Pandas",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Warehousing",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 3.9 years experience in Data Visualization, Data Warehousing, Machine Learning, MongoDB.",
+    "expected_salary_lpa": 10.7,
+    "applied_job_id": "J001",
+    "applied_on": "2025-06-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C007",
+    "name": "Yash Mehta",
+    "email": "yash.mehta7@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 8.5,
+      "year": 2018
+    },
+    "experience_years": 2.1,
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Python",
+      "REST API",
+      "Statistics",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.1 years experience in JavaScript, MongoDB, Python, REST API.",
+    "expected_salary_lpa": 8.8,
+    "applied_job_id": "J001",
+    "applied_on": "2025-07-01",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C008",
+    "name": "Karan Deshmukh",
+    "email": "karan.deshmukh8@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.9,
+      "year": 2017
+    },
+    "experience_years": 6.0,
+    "skills": [
+      "Cypher",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Cypher",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 6.0 years experience in Cypher, ETL, Indexing, MongoDB.",
+    "expected_salary_lpa": 16.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-10-09",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C009",
+    "name": "Tanvi Singh",
+    "email": "tanvi.singh9@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 6.6,
+      "year": 2022
+    },
+    "experience_years": 5.6,
+    "skills": [
+      "Java",
+      "Machine Learning",
+      "Neo4j",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Power BI",
+          "Pandas"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 5.6 years experience in Java, Machine Learning, Neo4j, Pandas.",
+    "expected_salary_lpa": 16.0,
+    "applied_job_id": "J001",
+    "applied_on": "2025-10-24",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C010",
+    "name": "Yash Iyer",
+    "email": "yash.iyer10@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.1,
+      "year": 2024
+    },
+    "experience_years": 4.8,
+    "skills": [
+      "Data Visualization",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Visualization",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Tableau",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "Tableau"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 4.8 years experience in Data Visualization, Pandas, Power BI, Python.",
+    "expected_salary_lpa": 12.6,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-14",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C011",
+    "name": "Neha Patil",
+    "email": "neha.patil11@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.2,
+      "year": 2020
+    },
+    "experience_years": 1.7,
+    "skills": [
+      "Docker",
+      "JavaScript",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Microservices"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MySQL",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.7 years experience in Docker, JavaScript, Microservices, MongoDB.",
+    "expected_salary_lpa": 6.1,
+    "applied_job_id": "J002",
+    "applied_on": "2025-10-11",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C012",
+    "name": "Aditya Singh",
+    "email": "aditya.singh12@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.4,
+      "year": 2019
+    },
+    "experience_years": 4.0,
+    "skills": [
+      "Data Visualization",
+      "Docker",
+      "Git",
+      "Indexing",
+      "Java",
+      "MySQL",
+      "Power BI",
+      "Python",
+      "Spring Boot",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Git"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 4.0 years experience in Data Visualization, Docker, Git, Indexing.",
+    "expected_salary_lpa": 12.1,
+    "applied_job_id": "J003",
+    "applied_on": "2025-05-15",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C013",
+    "name": "Rohan Singh",
+    "email": "rohan.singh13@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 9.4,
+      "year": 2020
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "Cypher",
+      "ETL",
+      "Indexing",
+      "JavaScript",
+      "Machine Learning",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Indexing",
+          "Neo4j"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Indexing",
+          "JavaScript"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.0 years experience in Cypher, ETL, Indexing, JavaScript.",
+    "expected_salary_lpa": 4.9,
+    "applied_job_id": "J002",
+    "applied_on": "2025-06-20",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C014",
+    "name": "Neha Nair",
+    "email": "neha.nair14@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.7,
+      "year": 2018
+    },
+    "experience_years": 1.7,
+    "skills": [
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 1.7 years experience in HTML, JavaScript, MongoDB, Node.js.",
+    "expected_salary_lpa": 7.0,
+    "applied_job_id": "J004",
+    "applied_on": "2025-02-05",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C015",
+    "name": "Arjun Mehta",
+    "email": "arjun.mehta15@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 8.8,
+      "year": 2019
+    },
+    "experience_years": 0.5,
+    "skills": [
+      "Data Warehousing",
+      "Git",
+      "Java",
+      "Linux",
+      "Microservices",
+      "MySQL",
+      "Spring Boot",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Spring Boot",
+          "Data Warehousing"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Linux",
+          "Java"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Spring Boot",
+          "Data Warehousing"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 0.5 years experience in Data Warehousing, Git, Java, Linux.",
+    "expected_salary_lpa": 6.7,
+    "applied_job_id": "J003",
+    "applied_on": "2025-06-19",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C016",
+    "name": "Sakshi Kulkarni",
+    "email": "sakshi.kulkarni16@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.9,
+      "year": 2024
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "AWS",
+      "JavaScript",
+      "Microservices",
+      "MySQL"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "AWS",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Microservices",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "MySQL",
+          "Microservices"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 1.0 years experience in AWS, JavaScript, Microservices, MySQL.",
+    "expected_salary_lpa": 6.6,
+    "applied_job_id": "J005",
+    "applied_on": "2025-06-14",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C017",
+    "name": "Karan Khan",
+    "email": "karan.khan17@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.5,
+      "year": 2024
+    },
+    "experience_years": 4.0,
+    "skills": [
+      "CSS",
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "React",
+      "SQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Neo4j",
+          "React"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Neo4j",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Warehousing",
+          "CSS"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 4.0 years experience in CSS, Cypher, Data Warehousing, ETL.",
+    "expected_salary_lpa": 12.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-02-24",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C018",
+    "name": "Rahul Joshi",
+    "email": "rahul.joshi18@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 5.9,
+      "year": 2023
+    },
+    "experience_years": 0.3,
+    "skills": [
+      "CSS",
+      "JavaScript",
+      "React",
+      "SQL",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "React"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0.3 years experience in CSS, JavaScript, React, SQL.",
+    "expected_salary_lpa": 5.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-11-23",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C019",
+    "name": "Meera Khan",
+    "email": "meera.khan19@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.8,
+      "year": 2024
+    },
+    "experience_years": 4.4,
+    "skills": [
+      "Data Warehousing",
+      "Docker",
+      "ETL",
+      "Git",
+      "Java",
+      "MongoDB",
+      "MySQL",
+      "Neo4j",
+      "PostgreSQL",
+      "React"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Neo4j",
+          "Data Warehousing"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "Java"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 4.4 years experience in Data Warehousing, Docker, ETL, Git.",
+    "expected_salary_lpa": 13.2,
+    "applied_job_id": "J003",
+    "applied_on": "2025-08-03",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C020",
+    "name": "Diya Joshi",
+    "email": "diya.joshi20@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.2,
+      "year": 2015
+    },
+    "experience_years": 2.7,
+    "skills": [
+      "Data Visualization",
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "Power BI",
+      "React",
+      "SQL",
+      "Statistics",
+      "Tableau",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Power BI",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 2.7 years experience in Data Visualization, HTML, JavaScript, MongoDB.",
+    "expected_salary_lpa": 10.1,
+    "applied_job_id": "J005",
+    "applied_on": "2025-07-14",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C021",
+    "name": "Rohan Deshmukh",
+    "email": "rohan.deshmukh21@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 5,
+      "year": 2025
+    },
+    "experience_years": 2.6,
+    "skills": [
+      "Data Visualization",
+      "Data Warehousing",
+      "ETL",
+      "Machine Learning",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Warehousing",
+          "Machine Learning"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Neo4j",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "ETL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 2.6 years experience in Data Visualization, Data Warehousing, ETL, Machine Learning.",
+    "expected_salary_lpa": 8.2,
+    "applied_job_id": "J003",
+    "applied_on": "2025-11-07",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C022",
+    "name": "Yash Sharma",
+    "email": "yash.sharma22@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 6.9,
+      "year": 2023
+    },
+    "experience_years": 0.1,
+    "skills": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Machine Learning",
+      "Node.js",
+      "Python",
+      "React",
+      "SQL"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "HTML",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Python",
+          "CSS"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 0.1 years experience in CSS, HTML, JavaScript, Machine Learning.",
+    "expected_salary_lpa": 5.7,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-08",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C023",
+    "name": "Isha Mehta",
+    "email": "isha.mehta23@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 9.2,
+      "year": 2020
+    },
+    "experience_years": 2.0,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "Indexing",
+      "MongoDB",
+      "SQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.0 years experience in Cypher, Data Warehousing, Indexing, MongoDB.",
+    "expected_salary_lpa": 7.3,
+    "applied_job_id": "J001",
+    "applied_on": "2025-08-26",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C024",
+    "name": "Isha Khan",
+    "email": "isha.khan24@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.8,
+      "year": 2023
+    },
+    "experience_years": 0.3,
+    "skills": [
+      "Cypher",
+      "Data Visualization",
+      "Data Warehousing",
+      "MongoDB",
+      "Neo4j",
+      "PostgreSQL",
+      "Power BI",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Statistics",
+          "Cypher"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Visualization",
+          "Neo4j"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 0.3 years experience in Cypher, Data Visualization, Data Warehousing, MongoDB.",
+    "expected_salary_lpa": 4.2,
+    "applied_job_id": "J005",
+    "applied_on": "2025-12-21",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C025",
+    "name": "Kavya Gupta",
+    "email": "kavya.gupta25@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 8.3,
+      "year": 2023
+    },
+    "experience_years": 1.2,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Microservices",
+      "MySQL"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Microservices",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 1.2 years experience in AWS, Docker, Linux, Microservices.",
+    "expected_salary_lpa": 7.3,
+    "applied_job_id": "J002",
+    "applied_on": "2025-09-26",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C026",
+    "name": "Manish Joshi",
+    "email": "manish.joshi26@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 5.9,
+      "year": 2015
+    },
+    "experience_years": 3.5,
+    "skills": [
+      "Data Visualization",
+      "Docker",
+      "MySQL",
+      "SQL",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "SQL",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Docker",
+          "Data Visualization"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 3.5 years experience in Data Visualization, Docker, MySQL, SQL.",
+    "expected_salary_lpa": 10.1,
+    "applied_job_id": "J005",
+    "applied_on": "2025-09-02",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C027",
+    "name": "Riya Iyer",
+    "email": "riya.iyer27@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.8,
+      "year": 2023
+    },
+    "experience_years": 3.8,
+    "skills": [
+      "Data Visualization",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Python",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "Python"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 3.8 years experience in Data Visualization, Power BI, Python, SQL.",
+    "expected_salary_lpa": 11.5,
+    "applied_job_id": "J001",
+    "applied_on": "2025-01-31",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C028",
+    "name": "Priya Kulkarni",
+    "email": "priya.kulkarni28@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.2,
+      "year": 2022
+    },
+    "experience_years": 0,
+    "skills": [
+      "Cypher",
+      "Data Visualization",
+      "ETL",
+      "Machine Learning",
+      "Pandas",
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Machine Learning",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Visualization",
+          "Pandas"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 0 years experience in Cypher, Data Visualization, ETL, Machine Learning.",
+    "expected_salary_lpa": 3.7,
+    "applied_job_id": "J005",
+    "applied_on": "2025-03-18",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C029",
+    "name": "Sneha Reddy",
+    "email": "sneha.reddy29@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 6.9,
+      "year": 2022
+    },
+    "experience_years": 4.4,
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "React",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "React",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 4.4 years experience in JavaScript, Node.js, React.",
+    "expected_salary_lpa": 11.0,
+    "applied_job_id": "J003",
+    "applied_on": "2025-04-28",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C030",
+    "name": "Rahul Gupta",
+    "email": "rahul.gupta30@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 8.5,
+      "year": 2016
+    },
+    "experience_years": 0,
+    "skills": [
+      "Data Visualization",
+      "Data Warehousing",
+      "Indexing",
+      "Pandas",
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Pandas",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Pandas",
+          "Indexing"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 0 years experience in Data Visualization, Data Warehousing, Indexing, Pandas.",
+    "expected_salary_lpa": 5.0,
+    "applied_job_id": "J005",
+    "applied_on": "2025-07-25",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C031",
+    "name": "Neha Mehta",
+    "email": "neha.mehta31@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.4,
+      "year": 2022
+    },
+    "experience_years": 6.5,
+    "skills": [
+      "Machine Learning",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Python",
+          "Statistics"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 6.5 years experience in Machine Learning, Power BI, Python, SQL.",
+    "expected_salary_lpa": 15.1,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-28",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C032",
+    "name": "Aditya Iyer",
+    "email": "aditya.iyer32@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.3,
+      "year": 2016
+    },
+    "experience_years": 3.2,
+    "skills": [
+      "ETL",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "ETL",
+          "Neo4j"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "Neo4j"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "Neo4j"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 3.2 years experience in ETL, Neo4j, SQL.",
+    "expected_salary_lpa": 10.0,
+    "applied_job_id": "J004",
+    "applied_on": "2025-09-05",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C033",
+    "name": "Rahul Reddy",
+    "email": "rahul.reddy33@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.7,
+      "year": 2023
+    },
+    "experience_years": 0,
+    "skills": [
+      "CSS",
+      "Data Warehousing",
+      "ETL",
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Neo4j",
+      "Node.js",
+      "React",
+      "SQL"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "HTML",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "Neo4j"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 0 years experience in CSS, Data Warehousing, ETL, HTML.",
+    "expected_salary_lpa": 3.7,
+    "applied_job_id": "J004",
+    "applied_on": "2025-07-30",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C034",
+    "name": "Pooja Nair",
+    "email": "pooja.nair34@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 9.2,
+      "year": 2024
+    },
+    "experience_years": 3.3,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Java",
+      "Linux",
+      "Machine Learning",
+      "Pandas",
+      "PostgreSQL",
+      "Python",
+      "React",
+      "SQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "SQL",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Pandas",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 3.3 years experience in AWS, Docker, Git, Java.",
+    "expected_salary_lpa": 10.8,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-07",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C035",
+    "name": "Ananya Joshi",
+    "email": "ananya.joshi35@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 6.3,
+      "year": 2019
+    },
+    "experience_years": 2.5,
+    "skills": [
+      "Pandas",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Pandas"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.5 years experience in Pandas, Statistics, Tableau.",
+    "expected_salary_lpa": 8.4,
+    "applied_job_id": "J005",
+    "applied_on": "2025-07-11",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C036",
+    "name": "Rohan Joshi",
+    "email": "rohan.joshi36@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.5,
+      "year": 2019
+    },
+    "experience_years": 0,
+    "skills": [
+      "CSS",
+      "Data Warehousing",
+      "ETL",
+      "MongoDB",
+      "REST API",
+      "React"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "CSS",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "ETL",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Warehousing",
+          "CSS"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 0 years experience in CSS, Data Warehousing, ETL, MongoDB.",
+    "expected_salary_lpa": 4.3,
+    "applied_job_id": "J004",
+    "applied_on": "2025-06-26",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C037",
+    "name": "Isha Joshi",
+    "email": "isha.joshi37@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.5,
+      "year": 2019
+    },
+    "experience_years": 6.5,
+    "skills": [
+      "AWS",
+      "Data Visualization",
+      "Docker",
+      "Linux",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Power BI",
+      "SQL",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Statistics",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Spring Boot",
+          "Microservices"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 6.5 years experience in AWS, Data Visualization, Docker, Linux.",
+    "expected_salary_lpa": 16.7,
+    "applied_job_id": "J005",
+    "applied_on": "2025-12-04",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C038",
+    "name": "Neha Reddy",
+    "email": "neha.reddy38@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.6,
+      "year": 2019
+    },
+    "experience_years": 1.8,
+    "skills": [
+      "Data Visualization",
+      "JavaScript",
+      "Node.js",
+      "Pandas",
+      "REST API",
+      "React",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Tableau",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.8 years experience in Data Visualization, JavaScript, Node.js, Pandas.",
+    "expected_salary_lpa": 8.5,
+    "applied_job_id": "J002",
+    "applied_on": "2025-06-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C039",
+    "name": "Aarav Nair",
+    "email": "aarav.nair39@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.1,
+      "year": 2016
+    },
+    "experience_years": 7.7,
+    "skills": [
+      "Cypher",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 7.7 years experience in Cypher, MongoDB, PostgreSQL.",
+    "expected_salary_lpa": 17.2,
+    "applied_job_id": "J001",
+    "applied_on": "2025-04-30",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C040",
+    "name": "Tanvi Deshmukh",
+    "email": "tanvi.deshmukh40@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.9,
+      "year": 2022
+    },
+    "experience_years": 5.1,
+    "skills": [
+      "Docker",
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "Statistics"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Power BI",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Statistics",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 5.1 years experience in Docker, Machine Learning, Pandas, Power BI.",
+    "expected_salary_lpa": 14.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-12-02",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C041",
+    "name": "Aditya Singh",
+    "email": "aditya.singh41@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.8,
+      "year": 2025
+    },
+    "experience_years": 1.5,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "Linux",
+      "MongoDB",
+      "Neo4j",
+      "Pandas",
+      "PostgreSQL",
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Pandas",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.5 years experience in Data Warehousing, ETL, Linux, MongoDB.",
+    "expected_salary_lpa": 8.7,
+    "applied_job_id": "J001",
+    "applied_on": "2025-10-17",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C042",
+    "name": "Diya Reddy",
+    "email": "diya.reddy42@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.7,
+      "year": 2017
+    },
+    "experience_years": 1.3,
+    "skills": [
+      "Machine Learning",
+      "Pandas",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Machine Learning",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Pandas",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.3 years experience in Machine Learning, Pandas, SQL, Tableau.",
+    "expected_salary_lpa": 6.3,
+    "applied_job_id": "J002",
+    "applied_on": "2025-03-31",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C043",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma43@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.9,
+      "year": 2021
+    },
+    "experience_years": 5.9,
+    "skills": [
+      "Data Visualization",
+      "Docker",
+      "Git",
+      "Java",
+      "Python",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 5.9 years experience in Data Visualization, Docker, Git, Java.",
+    "expected_salary_lpa": 16.3,
+    "applied_job_id": "J003",
+    "applied_on": "2025-02-07",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C044",
+    "name": "Priya Joshi",
+    "email": "priya.joshi44@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 5.9,
+      "year": 2024
+    },
+    "experience_years": 2.2,
+    "skills": [
+      "AWS",
+      "Microservices",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "AWS",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Microservices",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Spring Boot",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.2 years experience in AWS, Microservices, MySQL, Spring Boot.",
+    "expected_salary_lpa": 8.2,
+    "applied_job_id": "J001",
+    "applied_on": "2025-08-21",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C045",
+    "name": "Neha Deshmukh",
+    "email": "neha.deshmukh45@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 8.2,
+      "year": 2015
+    },
+    "experience_years": 5.9,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "PostgreSQL",
+      "React",
+      "SQL"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Cypher",
+          "React"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "PostgreSQL",
+          "React"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 5.9 years experience in Cypher, Data Warehousing, PostgreSQL, React.",
+    "expected_salary_lpa": 16.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-01-27",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C046",
+    "name": "Yash Iyer",
+    "email": "yash.iyer46@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 7.9,
+      "year": 2021
+    },
+    "experience_years": 3.9,
+    "skills": [
+      "AWS",
+      "Git",
+      "Linux",
+      "Microservices",
+      "Spring Boot",
+      "Tableau"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "AWS",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Tableau",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 3.9 years experience in AWS, Git, Linux, Microservices.",
+    "expected_salary_lpa": 10.1,
+    "applied_job_id": "J003",
+    "applied_on": "2025-05-20",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C047",
+    "name": "Aditya Sharma",
+    "email": "aditya.sharma47@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 8.1,
+      "year": 2017
+    },
+    "experience_years": 3.4,
+    "skills": [
+      "Docker",
+      "Git",
+      "Java",
+      "Linux",
+      "Microservices",
+      "SQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Linux",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Linux",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 3.4 years experience in Docker, Git, Java, Linux.",
+    "expected_salary_lpa": 10.9,
+    "applied_job_id": "J003",
+    "applied_on": "2025-08-01",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C048",
+    "name": "Diya Nair",
+    "email": "diya.nair48@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 8.0,
+      "year": 2020
+    },
+    "experience_years": 0,
+    "skills": [
+      "Docker",
+      "Git",
+      "HTML",
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Spring Boot",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 0 years experience in Docker, Git, HTML, Java.",
+    "expected_salary_lpa": 4.3,
+    "applied_job_id": "J003",
+    "applied_on": "2025-03-08",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C049",
+    "name": "Ishaan Mehta",
+    "email": "ishaan.mehta49@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 6.4,
+      "year": 2020
+    },
+    "experience_years": 2.0,
+    "skills": [
+      "ETL",
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Neo4j",
+      "REST API",
+      "React"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "React",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "HTML",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.0 years experience in ETL, HTML, JavaScript, MongoDB.",
+    "expected_salary_lpa": 8.4,
+    "applied_job_id": "J004",
+    "applied_on": "2025-09-26",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C050",
+    "name": "Diya Iyer",
+    "email": "diya.iyer50@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.5,
+      "year": 2017
+    },
+    "experience_years": 5.4,
+    "skills": [
+      "Cypher",
+      "Machine Learning",
+      "MongoDB",
+      "Neo4j",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "PostgreSQL",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 5.4 years experience in Cypher, Machine Learning, MongoDB, Neo4j.",
+    "expected_salary_lpa": 15.0,
+    "applied_job_id": "J001",
+    "applied_on": "2025-12-02",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C051",
+    "name": "Pooja Joshi",
+    "email": "pooja.joshi51@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.3,
+      "year": 2019
+    },
+    "experience_years": 0.7,
+    "skills": [
+      "CSS",
+      "HTML",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "REST API"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 0.7 years experience in CSS, HTML, MongoDB, Node.js.",
+    "expected_salary_lpa": 4.5,
+    "applied_job_id": "J001",
+    "applied_on": "2025-08-25",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C052",
+    "name": "Karan Mehta",
+    "email": "karan.mehta52@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 5.7,
+      "year": 2018
+    },
+    "experience_years": 4.5,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "Machine Learning",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Warehousing",
+          "Statistics"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 4.5 years experience in Data Warehousing, ETL, Machine Learning, Statistics.",
+    "expected_salary_lpa": 11.4,
+    "applied_job_id": "J004",
+    "applied_on": "2025-06-25",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C053",
+    "name": "Sakshi Mehta",
+    "email": "sakshi.mehta53@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 6.8,
+      "year": 2025
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "HTML",
+      "MongoDB",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "HTML",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 1.0 years experience in HTML, MongoDB, TypeScript.",
+    "expected_salary_lpa": 7.0,
+    "applied_job_id": "J001",
+    "applied_on": "2025-12-03",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C054",
+    "name": "Sakshi Reddy",
+    "email": "sakshi.reddy54@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.5,
+      "year": 2025
+    },
+    "experience_years": 4.7,
+    "skills": [
+      "CSS",
+      "Data Visualization",
+      "MongoDB",
+      "Node.js",
+      "Power BI",
+      "React",
+      "SQL",
+      "Statistics",
+      "Tableau",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "CSS",
+          "React"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Power BI",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 4.7 years experience in CSS, Data Visualization, MongoDB, Node.js.",
+    "expected_salary_lpa": 14.3,
+    "applied_job_id": "J005",
+    "applied_on": "2025-06-24",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C055",
+    "name": "Nikhil Mehta",
+    "email": "nikhil.mehta55@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 6.4,
+      "year": 2017
+    },
+    "experience_years": 4.5,
+    "skills": [
+      "Git",
+      "JavaScript",
+      "Machine Learning",
+      "Node.js",
+      "React",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Node.js",
+          "React"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 4.5 years experience in Git, JavaScript, Machine Learning, Node.js.",
+    "expected_salary_lpa": 12.0,
+    "applied_job_id": "J004",
+    "applied_on": "2025-08-18",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C056",
+    "name": "Pooja Gupta",
+    "email": "pooja.gupta56@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.9,
+      "year": 2016
+    },
+    "experience_years": 3.3,
+    "skills": [
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "React",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "HTML",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 3.3 years experience in HTML, JavaScript, MongoDB, Node.js.",
+    "expected_salary_lpa": 11.7,
+    "applied_job_id": "J002",
+    "applied_on": "2025-03-17",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C057",
+    "name": "Pooja Kulkarni",
+    "email": "pooja.kulkarni57@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.2,
+      "year": 2017
+    },
+    "experience_years": 4.0,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "Machine Learning",
+      "Microservices",
+      "MongoDB",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Warehousing",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Warehousing",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Microservices",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 4.0 years experience in Data Warehousing, ETL, Machine Learning, Microservices.",
+    "expected_salary_lpa": 11.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-11-08",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C058",
+    "name": "Diya Nair",
+    "email": "diya.nair58@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.5,
+      "year": 2015
+    },
+    "experience_years": 3.8,
+    "skills": [
+      "Data Visualization",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "PostgreSQL",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Visualization",
+          "PostgreSQL"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 3.8 years experience in Data Visualization, ETL, Indexing, MongoDB.",
+    "expected_salary_lpa": 12.8,
+    "applied_job_id": "J005",
+    "applied_on": "2025-02-04",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C059",
+    "name": "Rahul Deshmukh",
+    "email": "rahul.deshmukh59@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 8.9,
+      "year": 2020
+    },
+    "experience_years": 2.7,
+    "skills": [
+      "Data Visualization",
+      "Linux",
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Statistics",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Machine Learning",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.7 years experience in Data Visualization, Linux, Machine Learning, Pandas.",
+    "expected_salary_lpa": 8.3,
+    "applied_job_id": "J005",
+    "applied_on": "2025-08-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C060",
+    "name": "Rahul Nair",
+    "email": "rahul.nair60@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.3,
+      "year": 2020
+    },
+    "experience_years": 0,
+    "skills": [
+      "AWS",
+      "CSS",
+      "Java",
+      "Linux",
+      "Machine Learning",
+      "MySQL",
+      "Pandas",
+      "SQL",
+      "Spring Boot",
+      "Statistics"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "SQL",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MySQL",
+          "Java"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "Statistics"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 0 years experience in AWS, CSS, Java, Linux.",
+    "expected_salary_lpa": 4.1,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C061",
+    "name": "Manish Sharma",
+    "email": "manish.sharma61@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 7.9,
+      "year": 2025
+    },
+    "experience_years": 0,
+    "skills": [
+      "Data Visualization",
+      "Docker",
+      "ETL",
+      "Git",
+      "Linux",
+      "Machine Learning",
+      "MySQL",
+      "Pandas",
+      "Power BI",
+      "SQL",
+      "Spring Boot",
+      "Statistics"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "ETL",
+          "Data Visualization"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "ETL",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 0 years experience in Data Visualization, Docker, ETL, Git.",
+    "expected_salary_lpa": 5.0,
+    "applied_job_id": "J003",
+    "applied_on": "2025-08-13",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C062",
+    "name": "Diya Reddy",
+    "email": "diya.reddy62@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 6.2,
+      "year": 2021
+    },
+    "experience_years": 1.1,
+    "skills": [
+      "HTML",
+      "Machine Learning",
+      "MongoDB",
+      "Pandas",
+      "Python",
+      "REST API",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Pandas",
+          "HTML"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "HTML",
+          "REST API"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.1 years experience in HTML, Machine Learning, MongoDB, Pandas.",
+    "expected_salary_lpa": 5.5,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C063",
+    "name": "Karan Patil",
+    "email": "karan.patil63@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.9,
+      "year": 2025
+    },
+    "experience_years": 2.8,
+    "skills": [
+      "Data Visualization",
+      "Machine Learning",
+      "Pandas",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Visualization",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Pandas",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.8 years experience in Data Visualization, Machine Learning, Pandas, SQL.",
+    "expected_salary_lpa": 10.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-12-25",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C064",
+    "name": "Aditya Patil",
+    "email": "aditya.patil64@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.8,
+      "year": 2021
+    },
+    "experience_years": 3.8,
+    "skills": [
+      "AWS",
+      "Git",
+      "Linux",
+      "SQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "SQL",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Spring Boot",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Git",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 3.8 years experience in AWS, Git, Linux, SQL.",
+    "expected_salary_lpa": 11.8,
+    "applied_job_id": "J002",
+    "applied_on": "2025-08-19",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C065",
+    "name": "Sneha Iyer",
+    "email": "sneha.iyer65@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.1,
+      "year": 2023
+    },
+    "experience_years": 3.8,
+    "skills": [
+      "Docker",
+      "Linux",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Node.js",
+      "SQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Linux",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Microservices",
+          "MySQL"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 3.8 years experience in Docker, Linux, Microservices, MongoDB.",
+    "expected_salary_lpa": 12.7,
+    "applied_job_id": "J004",
+    "applied_on": "2025-03-20",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C066",
+    "name": "Meera Mehta",
+    "email": "meera.mehta66@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.3,
+      "year": 2015
+    },
+    "experience_years": 0.1,
+    "skills": [
+      "AWS",
+      "Java",
+      "Linux"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Java",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Java",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Linux",
+          "Java"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0.1 years experience in AWS, Java, Linux.",
+    "expected_salary_lpa": 4.1,
+    "applied_job_id": "J002",
+    "applied_on": "2025-02-07",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C067",
+    "name": "Ananya Sharma",
+    "email": "ananya.sharma67@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.9,
+      "year": 2021
+    },
+    "experience_years": 3.7,
+    "skills": [
+      "HTML",
+      "Machine Learning",
+      "MongoDB",
+      "Node.js",
+      "Pandas",
+      "Python",
+      "REST API",
+      "React",
+      "Statistics",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Python",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 3.7 years experience in HTML, Machine Learning, MongoDB, Node.js.",
+    "expected_salary_lpa": 10.2,
+    "applied_job_id": "J001",
+    "applied_on": "2025-03-23",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C068",
+    "name": "Meera Deshmukh",
+    "email": "meera.deshmukh68@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.4,
+      "year": 2020
+    },
+    "experience_years": 4.0,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "PostgreSQL",
+          "Cypher"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 4.0 years experience in Cypher, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 11.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-04-10",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C069",
+    "name": "Diya Iyer",
+    "email": "diya.iyer69@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 7.2,
+      "year": 2023
+    },
+    "experience_years": 4.5,
+    "skills": [
+      "Docker",
+      "JavaScript",
+      "Linux",
+      "Microservices",
+      "Power BI"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Docker",
+          "Power BI"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 4.5 years experience in Docker, JavaScript, Linux, Microservices.",
+    "expected_salary_lpa": 11.5,
+    "applied_job_id": "J003",
+    "applied_on": "2025-06-20",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C070",
+    "name": "Rahul Singh",
+    "email": "rahul.singh70@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 6.8,
+      "year": 2021
+    },
+    "experience_years": 1.8,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "PostgreSQL"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Neo4j",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "MongoDB",
+          "Data Warehousing"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 1.8 years experience in Cypher, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 8.4,
+    "applied_job_id": "J004",
+    "applied_on": "2025-10-26",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C071",
+    "name": "Riya Joshi",
+    "email": "riya.joshi71@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.9,
+      "year": 2015
+    },
+    "experience_years": 2.1,
+    "skills": [
+      "ETL",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "React",
+      "SQL",
+      "TypeScript"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "React",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 2.1 years experience in ETL, JavaScript, MongoDB, Node.js.",
+    "expected_salary_lpa": 8.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-07-12",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C072",
+    "name": "Nikhil Iyer",
+    "email": "nikhil.iyer72@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 10,
+      "year": 2022
+    },
+    "experience_years": 4.8,
+    "skills": [
+      "CSS",
+      "Docker",
+      "HTML",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "HTML"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Docker",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 4.8 years experience in CSS, Docker, HTML, JavaScript.",
+    "expected_salary_lpa": 13.7,
+    "applied_job_id": "J003",
+    "applied_on": "2025-07-14",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C073",
+    "name": "Vivaan Singh",
+    "email": "vivaan.singh73@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 6.9,
+      "year": 2018
+    },
+    "experience_years": 2.1,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "Java",
+      "Linux",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.1 years experience in Data Warehousing, ETL, Java, Linux.",
+    "expected_salary_lpa": 8.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-02-21",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C074",
+    "name": "Aditya Singh",
+    "email": "aditya.singh74@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.2,
+      "year": 2018
+    },
+    "experience_years": 1.0,
+    "skills": [
+      "Pandas",
+      "Power BI",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Pandas"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.0 years experience in Pandas, Power BI, Statistics, Tableau.",
+    "expected_salary_lpa": 7.6,
+    "applied_job_id": "J002",
+    "applied_on": "2025-01-19",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C075",
+    "name": "Siddharth Joshi",
+    "email": "siddharth.joshi75@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.8,
+      "year": 2018
+    },
+    "experience_years": 0,
+    "skills": [
+      "Cypher",
+      "ETL",
+      "Git",
+      "MySQL",
+      "Neo4j",
+      "PostgreSQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "ETL",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "PostgreSQL",
+          "Git"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0 years experience in Cypher, ETL, Git, MySQL.",
+    "expected_salary_lpa": 5.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-01-08",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C076",
+    "name": "Diya Joshi",
+    "email": "diya.joshi76@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 8.7,
+      "year": 2018
+    },
+    "experience_years": 2.7,
+    "skills": [
+      "Docker",
+      "Git",
+      "Microservices",
+      "MySQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Docker"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MySQL",
+          "Git"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 2.7 years experience in Docker, Git, Microservices, MySQL.",
+    "expected_salary_lpa": 10.7,
+    "applied_job_id": "J003",
+    "applied_on": "2025-06-04",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C077",
+    "name": "Riya Gupta",
+    "email": "riya.gupta77@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.9,
+      "year": 2023
+    },
+    "experience_years": 1.4,
+    "skills": [
+      "AWS",
+      "Data Visualization",
+      "MySQL",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics"
+    ],
+    "certifications": [
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Statistics",
+          "Data Visualization"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Statistics",
+          "Data Visualization"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "Python"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.4 years experience in AWS, Data Visualization, MySQL, Power BI.",
+    "expected_salary_lpa": 8.1,
+    "applied_job_id": "J005",
+    "applied_on": "2025-02-11",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C078",
+    "name": "Pooja Patil",
+    "email": "pooja.patil78@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.9,
+      "year": 2022
+    },
+    "experience_years": 2.8,
+    "skills": [
+      "ETL",
+      "Indexing",
+      "Microservices",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "Neo4j"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.8 years experience in ETL, Indexing, Microservices, MongoDB.",
+    "expected_salary_lpa": 9.7,
+    "applied_job_id": "J005",
+    "applied_on": "2025-10-14",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C079",
+    "name": "Aditya Joshi",
+    "email": "aditya.joshi79@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.7,
+      "year": 2019
+    },
+    "experience_years": 4.3,
+    "skills": [
+      "Java",
+      "Linux",
+      "MySQL"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 4.3 years experience in Java, Linux, MySQL.",
+    "expected_salary_lpa": 11.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-07-15",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C080",
+    "name": "Aarav Nair",
+    "email": "aarav.nair80@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.3,
+      "year": 2025
+    },
+    "experience_years": 2.3,
+    "skills": [
+      "Cypher",
+      "ETL",
+      "Indexing",
+      "JavaScript",
+      "MongoDB",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "JavaScript",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "ETL",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Indexing",
+          "ETL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.3 years experience in Cypher, ETL, Indexing, JavaScript.",
+    "expected_salary_lpa": 8.0,
+    "applied_job_id": "J004",
+    "applied_on": "2025-02-27",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C081",
+    "name": "Rohan Kulkarni",
+    "email": "rohan.kulkarni81@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.9,
+      "year": 2020
+    },
+    "experience_years": 0.2,
+    "skills": [
+      "Data Warehousing",
+      "Machine Learning",
+      "MongoDB",
+      "Neo4j",
+      "Pandas",
+      "Python"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 0.2 years experience in Data Warehousing, Machine Learning, MongoDB, Neo4j.",
+    "expected_salary_lpa": 6.3,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-24",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C082",
+    "name": "Sakshi Khan",
+    "email": "sakshi.khan82@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 5,
+      "year": 2023
+    },
+    "experience_years": 7.4,
+    "skills": [
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Neo4j",
+          "Indexing"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "Neo4j"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 7.4 years experience in ETL, Indexing, MongoDB, Neo4j.",
+    "expected_salary_lpa": 16.9,
+    "applied_job_id": "J002",
+    "applied_on": "2025-10-03",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C083",
+    "name": "Sneha Iyer",
+    "email": "sneha.iyer83@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 6.4,
+      "year": 2025
+    },
+    "experience_years": 0,
+    "skills": [
+      "CSS",
+      "MongoDB",
+      "REST API",
+      "React"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "REST API",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MongoDB",
+          "CSS"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0 years experience in CSS, MongoDB, REST API, React.",
+    "expected_salary_lpa": 3.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-12-11",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C084",
+    "name": "Priya Sharma",
+    "email": "priya.sharma84@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 5.4,
+      "year": 2018
+    },
+    "experience_years": 2.1,
+    "skills": [
+      "Data Visualization",
+      "Pandas",
+      "Tableau"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Data Visualization"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 2.1 years experience in Data Visualization, Pandas, Tableau.",
+    "expected_salary_lpa": 8.0,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-03",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C085",
+    "name": "Aarav Nair",
+    "email": "aarav.nair85@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 8.2,
+      "year": 2024
+    },
+    "experience_years": 1.1,
+    "skills": [
+      "Data Visualization",
+      "Docker",
+      "Git",
+      "Linux",
+      "Microservices",
+      "MySQL",
+      "Power BI",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Git",
+          "Linux"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MySQL",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.1 years experience in Data Visualization, Docker, Git, Linux.",
+    "expected_salary_lpa": 6.1,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-06",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C086",
+    "name": "Vivaan Sharma",
+    "email": "vivaan.sharma86@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.6,
+      "year": 2017
+    },
+    "experience_years": 0.0,
+    "skills": [
+      "AWS",
+      "Data Warehousing",
+      "Docker",
+      "ETL",
+      "Git",
+      "Linux",
+      "Machine Learning",
+      "Microservices",
+      "MongoDB",
+      "Neo4j",
+      "Pandas"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Docker",
+          "AWS"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "ETL",
+          "MongoDB"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Microservices",
+          "Linux"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 0.0 years experience in AWS, Data Warehousing, Docker, ETL.",
+    "expected_salary_lpa": 3.2,
+    "applied_job_id": "J004",
+    "applied_on": "2025-11-23",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C087",
+    "name": "Riya Reddy",
+    "email": "riya.reddy87@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.1,
+      "year": 2020
+    },
+    "experience_years": 3.3,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "Neo4j",
+      "Power BI",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Power BI",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 3.3 years experience in Cypher, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 10.3,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-05",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C088",
+    "name": "Ananya Reddy",
+    "email": "ananya.reddy88@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 5.8,
+      "year": 2018
+    },
+    "experience_years": 2.3,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Java",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "React"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "React",
+          "Java"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "AWS",
+          "React"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "MongoDB",
+          "React"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 2.3 years experience in AWS, Docker, Java, JavaScript.",
+    "expected_salary_lpa": 8.8,
+    "applied_job_id": "J002",
+    "applied_on": "2025-01-17",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C089",
+    "name": "Arjun Singh",
+    "email": "arjun.singh89@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.6,
+      "year": 2020
+    },
+    "experience_years": 1.9,
+    "skills": [
+      "Docker",
+      "Microservices",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Spring Boot",
+          "Docker"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.9 years experience in Docker, Microservices, Spring Boot.",
+    "expected_salary_lpa": 7.9,
+    "applied_job_id": "J002",
+    "applied_on": "2025-06-27",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C090",
+    "name": "Sakshi Khan",
+    "email": "sakshi.khan90@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 6.9,
+      "year": 2024
+    },
+    "experience_years": 1.5,
+    "skills": [
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Power BI",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Python",
+          "Pandas"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.5 years experience in Machine Learning, Pandas, Power BI, Python.",
+    "expected_salary_lpa": 7.9,
+    "applied_job_id": "J001",
+    "applied_on": "2025-06-12",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C091",
+    "name": "Aditya Mehta",
+    "email": "aditya.mehta91@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.0,
+      "year": 2020
+    },
+    "experience_years": 0.3,
+    "skills": [
+      "Git",
+      "Java",
+      "Machine Learning",
+      "MySQL",
+      "Pandas",
+      "Python",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Spring Boot"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Spring Boot",
+          "Git"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 0.3 years experience in Git, Java, Machine Learning, MySQL.",
+    "expected_salary_lpa": 5.7,
+    "applied_job_id": "J003",
+    "applied_on": "2025-10-14",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C092",
+    "name": "Pooja Mehta",
+    "email": "pooja.mehta92@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.4,
+      "year": 2018
+    },
+    "experience_years": 2.8,
+    "skills": [
+      "AWS",
+      "CSS",
+      "Data Visualization",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "React",
+      "TypeScript"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Node.js",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 2.8 years experience in AWS, CSS, Data Visualization, MongoDB.",
+    "expected_salary_lpa": 10.9,
+    "applied_job_id": "J002",
+    "applied_on": "2025-06-20",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C093",
+    "name": "Rohan Gupta",
+    "email": "rohan.gupta93@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.2,
+      "year": 2019
+    },
+    "experience_years": 4.1,
+    "skills": [
+      "Data Visualization",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "PostgreSQL",
+      "Power BI",
+      "SQL"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 4.1 years experience in Data Visualization, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 13.4,
+    "applied_job_id": "J005",
+    "applied_on": "2025-04-03",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C094",
+    "name": "Pooja Mehta",
+    "email": "pooja.mehta94@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.5,
+      "year": 2023
+    },
+    "experience_years": 0,
+    "skills": [
+      "Data Visualization",
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Visualization",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "SQL",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Machine Learning",
+          "Data Visualization"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0 years experience in Data Visualization, Machine Learning, Pandas, Power BI.",
+    "expected_salary_lpa": 5.3,
+    "applied_job_id": "J005",
+    "applied_on": "2025-12-03",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C095",
+    "name": "Nikhil Mehta",
+    "email": "nikhil.mehta95@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.5,
+      "year": 2022
+    },
+    "experience_years": 4.0,
+    "skills": [
+      "Node.js",
+      "REST API",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "TypeScript",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "REST API",
+          "Node.js"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 4.0 years experience in Node.js, REST API, TypeScript.",
+    "expected_salary_lpa": 11.6,
+    "applied_job_id": "J003",
+    "applied_on": "2025-06-01",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C096",
+    "name": "Aditya Nair",
+    "email": "aditya.nair96@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 6.0,
+      "year": 2016
+    },
+    "experience_years": 0,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "Machine Learning",
+      "MongoDB",
+      "Power BI",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Tableau",
+          "Data Warehousing"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Tableau",
+          "ETL"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 0 years experience in Data Warehousing, ETL, Machine Learning, MongoDB.",
+    "expected_salary_lpa": 5.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-05-05",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C097",
+    "name": "Nikhil Patil",
+    "email": "nikhil.patil97@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 6.9,
+      "year": 2016
+    },
+    "experience_years": 0.8,
+    "skills": [
+      "CSS",
+      "Data Visualization",
+      "ETL",
+      "HTML",
+      "MongoDB",
+      "Power BI",
+      "SQL",
+      "Statistics",
+      "Tableau",
+      "TypeScript"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "HTML",
+          "Statistics"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Visualization",
+          "MongoDB"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 0.8 years experience in CSS, Data Visualization, ETL, HTML.",
+    "expected_salary_lpa": 6.5,
+    "applied_job_id": "J005",
+    "applied_on": "2025-09-08",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C098",
+    "name": "Yash Patil",
+    "email": "yash.patil98@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 7.2,
+      "year": 2017
+    },
+    "experience_years": 4.1,
+    "skills": [
+      "AWS",
+      "Java",
+      "Linux",
+      "Microservices",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Linux",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 4.1 years experience in AWS, Java, Linux, Microservices.",
+    "expected_salary_lpa": 10.9,
+    "applied_job_id": "J005",
+    "applied_on": "2025-12-22",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C099",
+    "name": "Ishaan Gupta",
+    "email": "ishaan.gupta99@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 5,
+      "year": 2022
+    },
+    "experience_years": 0,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "MongoDB",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "Data Warehousing"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 0 years experience in Cypher, Data Warehousing, ETL, MongoDB.",
+    "expected_salary_lpa": 3.6,
+    "applied_job_id": "J002",
+    "applied_on": "2025-07-16",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C100",
+    "name": "Pooja Reddy",
+    "email": "pooja.reddy100@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 7.9,
+      "year": 2016
+    },
+    "experience_years": 3.9,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MySQL",
+      "Neo4j",
+      "Power BI",
+      "REST API",
+      "SQL",
+      "Tableau"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Neo4j",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Cypher",
+          "REST API"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "SQL",
+          "Indexing"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 3.9 years experience in Cypher, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 13.0,
+    "applied_job_id": "J005",
+    "applied_on": "2025-02-22",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C101",
+    "name": "Manish Khan",
+    "email": "manish.khan101@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 9.0,
+      "year": 2024
+    },
+    "experience_years": 3.3,
+    "skills": [
+      "AWS",
+      "Linux",
+      "MySQL",
+      "Power BI",
+      "TypeScript"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Linux",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 3.3 years experience in AWS, Linux, MySQL, Power BI.",
+    "expected_salary_lpa": 10.7,
+    "applied_job_id": "J002",
+    "applied_on": "2025-09-30",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C102",
+    "name": "Diya Mehta",
+    "email": "diya.mehta102@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.5,
+      "year": 2019
+    },
+    "experience_years": 5.0,
+    "skills": [
+      "CSS",
+      "Docker",
+      "Git",
+      "Java",
+      "JavaScript",
+      "Microservices",
+      "MySQL",
+      "Node.js",
+      "REST API",
+      "Spring Boot",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Google Data Analytics",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Docker",
+          "TypeScript"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "MySQL",
+          "REST API"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 5.0 years experience in CSS, Docker, Git, Java.",
+    "expected_salary_lpa": 14.2,
+    "applied_job_id": "J003",
+    "applied_on": "2025-12-22",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C103",
+    "name": "Priya Gupta",
+    "email": "priya.gupta103@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 8.4,
+      "year": 2024
+    },
+    "experience_years": 2.9,
+    "skills": [
+      "Data Visualization",
+      "Data Warehousing",
+      "ETL",
+      "Indexing",
+      "MongoDB",
+      "Neo4j",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "SQL",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Neo4j",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Data Visualization",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 2.9 years experience in Data Visualization, Data Warehousing, ETL, Indexing.",
+    "expected_salary_lpa": 8.5,
+    "applied_job_id": "J003",
+    "applied_on": "2025-08-24",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C104",
+    "name": "Ishaan Sharma",
+    "email": "ishaan.sharma104@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.E.",
+      "field": "Electronics",
+      "cgpa": 8.7,
+      "year": 2025
+    },
+    "experience_years": 2.6,
+    "skills": [
+      "AWS",
+      "Java",
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Pandas",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Java",
+          "Python"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Java",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "B.E. Electronics graduate with 2.6 years experience in AWS, Java, Machine Learning, Pandas.",
+    "expected_salary_lpa": 8.3,
+    "applied_job_id": "J001",
+    "applied_on": "2025-02-09",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C105",
+    "name": "Priya Deshmukh",
+    "email": "priya.deshmukh105@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.8,
+      "year": 2017
+    },
+    "experience_years": 2.6,
+    "skills": [
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "REST API",
+      "React",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "MongoDB Associate Developer"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "React",
+          "TypeScript"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.6 years experience in JavaScript, MongoDB, Node.js, REST API.",
+    "expected_salary_lpa": 7.7,
+    "applied_job_id": "J002",
+    "applied_on": "2025-11-29",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C106",
+    "name": "Ananya Mehta",
+    "email": "ananya.mehta106@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.8,
+      "year": 2021
+    },
+    "experience_years": 3.7,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "Indexing",
+      "MongoDB",
+      "SQL"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Data Warehousing",
+          "SQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Indexing",
+          "Cypher"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 3.7 years experience in Cypher, Data Warehousing, Indexing, MongoDB.",
+    "expected_salary_lpa": 10.4,
+    "applied_job_id": "J002",
+    "applied_on": "2025-11-04",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C107",
+    "name": "Pooja Singh",
+    "email": "pooja.singh107@mail.com",
+    "city": "Delhi",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.0,
+      "year": 2016
+    },
+    "experience_years": 0.4,
+    "skills": [
+      "AWS",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Microservices",
+          "MySQL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Spring Boot",
+          "MySQL"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 0.4 years experience in AWS, Microservices, MongoDB, MySQL.",
+    "expected_salary_lpa": 4.8,
+    "applied_job_id": "J005",
+    "applied_on": "2025-12-16",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C108",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni108@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 6.6,
+      "year": 2016
+    },
+    "experience_years": 2.5,
+    "skills": [
+      "ETL",
+      "Indexing",
+      "JavaScript",
+      "Neo4j",
+      "REST API",
+      "React"
+    ],
+    "certifications": [
+      "Oracle SQL Associate",
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Indexing",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "ETL",
+          "JavaScript"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "ETL",
+          "REST API"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 2.5 years experience in ETL, Indexing, JavaScript, Neo4j.",
+    "expected_salary_lpa": 10.3,
+    "applied_job_id": "J002",
+    "applied_on": "2025-03-21",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C109",
+    "name": "Ishaan Joshi",
+    "email": "ishaan.joshi109@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 6.9,
+      "year": 2023
+    },
+    "experience_years": 1.8,
+    "skills": [
+      "AWS",
+      "Data Visualization",
+      "Docker",
+      "Git",
+      "Java",
+      "MySQL",
+      "Power BI",
+      "SQL",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MySQL",
+          "Docker"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 1.8 years experience in AWS, Data Visualization, Docker, Git.",
+    "expected_salary_lpa": 8.5,
+    "applied_job_id": "J005",
+    "applied_on": "2025-05-18",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C110",
+    "name": "Vivaan Joshi",
+    "email": "vivaan.joshi110@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 8.4,
+      "year": 2024
+    },
+    "experience_years": 0,
+    "skills": [
+      "Data Visualization",
+      "Machine Learning",
+      "Power BI",
+      "Python",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "Power BI"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Visualization",
+          "Tableau"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 0 years experience in Data Visualization, Machine Learning, Power BI, Python.",
+    "expected_salary_lpa": 3.7,
+    "applied_job_id": "J001",
+    "applied_on": "2025-09-18",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C111",
+    "name": "Isha Gupta",
+    "email": "isha.gupta111@mail.com",
+    "city": "Bengaluru",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 6.0,
+      "year": 2016
+    },
+    "experience_years": 1.8,
+    "skills": [
+      "Machine Learning",
+      "Pandas",
+      "Power BI",
+      "Python",
+      "Statistics"
+    ],
+    "certifications": [
+      "Neo4j Certified Professional",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "Pandas"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Pandas",
+          "Machine Learning"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "Python",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.8 years experience in Machine Learning, Pandas, Power BI, Python.",
+    "expected_salary_lpa": 8.9,
+    "applied_job_id": "J001",
+    "applied_on": "2025-05-25",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C112",
+    "name": "Isha Reddy",
+    "email": "isha.reddy112@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 5.7,
+      "year": 2018
+    },
+    "experience_years": 4.4,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Git",
+      "Java",
+      "MySQL",
+      "Spring Boot"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Java",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 4.4 years experience in AWS, Docker, Git, Java.",
+    "expected_salary_lpa": 11.6,
+    "applied_job_id": "J003",
+    "applied_on": "2025-06-27",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C113",
+    "name": "Rohan Reddy",
+    "email": "rohan.reddy113@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.4,
+      "year": 2020
+    },
+    "experience_years": 1.8,
+    "skills": [
+      "AWS",
+      "Git",
+      "Linux",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Azure Fundamentals"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "TypeScript",
+          "AWS"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 1.8 years experience in AWS, Git, Linux, PostgreSQL.",
+    "expected_salary_lpa": 7.8,
+    "applied_job_id": "J001",
+    "applied_on": "2025-11-23",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C114",
+    "name": "Ananya Deshmukh",
+    "email": "ananya.deshmukh114@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "M.Sc",
+      "field": "Data Science",
+      "cgpa": 8.0,
+      "year": 2017
+    },
+    "experience_years": 1.6,
+    "skills": [
+      "Data Warehousing",
+      "ETL",
+      "MongoDB",
+      "Neo4j",
+      "REST API",
+      "SQL",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Spring Boot",
+          "ETL"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Tableau",
+          "SQL"
+        ]
+      }
+    ],
+    "summary": "M.Sc Data Science graduate with 1.6 years experience in Data Warehousing, ETL, MongoDB, Neo4j.",
+    "expected_salary_lpa": 8.8,
+    "applied_job_id": "J004",
+    "applied_on": "2025-04-17",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C115",
+    "name": "Aarav Khan",
+    "email": "aarav.khan115@mail.com",
+    "city": "Thane",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 7.6,
+      "year": 2022
+    },
+    "experience_years": 2.0,
+    "skills": [
+      "Git",
+      "Java",
+      "Linux",
+      "Microservices",
+      "MongoDB",
+      "MySQL",
+      "Neo4j",
+      "Spring Boot",
+      "TypeScript"
+    ],
+    "certifications": [
+      "Azure Fundamentals",
+      "Oracle SQL Associate"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Java",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 2.0 years experience in Git, Java, Linux, Microservices.",
+    "expected_salary_lpa": 6.9,
+    "applied_job_id": "J004",
+    "applied_on": "2025-03-13",
+    "status": "Shortlisted"
+  },
+  {
+    "candidate_id": "C116",
+    "name": "Kavya Singh",
+    "email": "kavya.singh116@mail.com",
+    "city": "Hyderabad",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 7.7,
+      "year": 2017
+    },
+    "experience_years": 8.6,
+    "skills": [
+      "Java",
+      "Pandas",
+      "SQL",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Java",
+          "Tableau"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Statistics",
+          "Java"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 8.6 years experience in Java, Pandas, SQL, Statistics.",
+    "expected_salary_lpa": 19.0,
+    "applied_job_id": "J001",
+    "applied_on": "2025-10-21",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C117",
+    "name": "Tanvi Joshi",
+    "email": "tanvi.joshi117@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "cgpa": 7.7,
+      "year": 2016
+    },
+    "experience_years": 5.2,
+    "skills": [
+      "Cypher",
+      "Data Warehousing",
+      "ETL",
+      "MongoDB",
+      "Neo4j",
+      "SQL"
+    ],
+    "certifications": [
+      "Google Data Analytics"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "Data Warehousing"
+        ]
+      }
+    ],
+    "summary": "B.Tech Information Technology graduate with 5.2 years experience in Cypher, Data Warehousing, ETL, MongoDB.",
+    "expected_salary_lpa": 14.3,
+    "applied_job_id": "J004",
+    "applied_on": "2025-09-27",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C118",
+    "name": "Yash Iyer",
+    "email": "yash.iyer118@mail.com",
+    "city": "Pune",
+    "education": {
+      "degree": "BCA",
+      "field": "Computer Applications",
+      "cgpa": 7.8,
+      "year": 2016
+    },
+    "experience_years": 0.6,
+    "skills": [
+      "Data Visualization",
+      "JavaScript",
+      "Machine Learning",
+      "MongoDB",
+      "Node.js",
+      "Pandas",
+      "Power BI",
+      "REST API",
+      "React",
+      "Spring Boot",
+      "Statistics",
+      "Tableau"
+    ],
+    "certifications": [],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "React",
+          "Data Visualization"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "MongoDB",
+          "Spring Boot"
+        ]
+      }
+    ],
+    "summary": "BCA Computer Applications graduate with 0.6 years experience in Data Visualization, JavaScript, Machine Learning, MongoDB.",
+    "expected_salary_lpa": 6.6,
+    "applied_job_id": "J002",
+    "applied_on": "2025-07-18",
+    "status": "Hired"
+  },
+  {
+    "candidate_id": "C119",
+    "name": "Vivaan Patil",
+    "email": "vivaan.patil119@mail.com",
+    "city": "Mumbai",
+    "education": {
+      "degree": "MCA",
+      "field": "Computer Applications",
+      "cgpa": 7.2,
+      "year": 2018
+    },
+    "experience_years": 1.3,
+    "skills": [
+      "CSS",
+      "HTML",
+      "Linux",
+      "MongoDB",
+      "Node.js",
+      "React"
+    ],
+    "certifications": [
+      "MongoDB Associate Developer",
+      "AWS Cloud Practitioner"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "MongoDB",
+          "CSS"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Linux",
+          "Node.js"
+        ]
+      },
+      {
+        "title": "Project 3",
+        "tech": [
+          "HTML",
+          "React"
+        ]
+      }
+    ],
+    "summary": "MCA Computer Applications graduate with 1.3 years experience in CSS, HTML, Linux, MongoDB.",
+    "expected_salary_lpa": 6.4,
+    "applied_job_id": "J003",
+    "applied_on": "2025-04-01",
+    "status": "Rejected"
+  },
+  {
+    "candidate_id": "C120",
+    "name": "Neha Kulkarni",
+    "email": "neha.kulkarni120@mail.com",
+    "city": "Kalyan",
+    "education": {
+      "degree": "B.Tech",
+      "field": "Computer Science",
+      "cgpa": 8.5,
+      "year": 2021
+    },
+    "experience_years": 2.2,
+    "skills": [
+      "Data Visualization",
+      "Machine Learning",
+      "Statistics"
+    ],
+    "certifications": [
+      "AWS Cloud Practitioner",
+      "Neo4j Certified Professional"
+    ],
+    "projects": [
+      {
+        "title": "Project 1",
+        "tech": [
+          "Machine Learning",
+          "Data Visualization"
+        ]
+      },
+      {
+        "title": "Project 2",
+        "tech": [
+          "Data Visualization",
+          "Machine Learning"
+        ]
+      }
+    ],
+    "summary": "B.Tech Computer Science graduate with 2.2 years experience in Data Visualization, Machine Learning, Statistics.",
+    "expected_salary_lpa": 9.3,
+    "applied_job_id": "J003",
+    "applied_on": "2025-09-07",
+    "status": "Rejected"
+  }
+]
